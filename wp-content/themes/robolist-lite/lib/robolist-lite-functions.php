@@ -521,27 +521,15 @@ if (!function_exists('robolist_lite_job_aearch')) {
 
                     <div class="banner-search-input-item search-key">
                         <input type="text" name="search_keywords"
-                               placeholder="<?php echo esc_attr__('What are you looking for ?', 'robolist-lite'); ?>"
+                               placeholder="<?php echo esc_attr__('szpital lub terapia', 'robolist-lite'); ?>"
                                value=""/>
                     </div>
                     <div class="banner-search-input-item location">
                         <input type="text" name="search_location"
-                               placeholder="<?php echo esc_attr__('Enter Location', 'robolist-lite'); ?>" value=""/>
-                    </div>
-                    <div class="banner-search-input-item category">
-                        <select class="selectpicker" data-live-search="true" name="search_category">
-                            <option value=""><?php echo esc_html__('All Categories', 'robolist-lite'); ?></option>
-                            <?php if (count(get_job_listing_categories()) >= 1): ?>
-
-                                <?php foreach (get_job_listing_categories() as $cat) { ?>
-                                    <option value="<?php echo esc_attr($cat->term_id); ?>"><?php echo esc_html($cat->name); ?></option>
-                                <?php } ?>
-                            <?php endif; ?>
-
-                        </select>
+                               placeholder="<?php echo esc_attr__('miasto lub województwo', 'robolist-lite'); ?>" value=""/>
                     </div>
                     <button class="button btn-default"><i
-                                class="ion-ios-search"></i><?php echo esc_html__('Search', 'robolist-lite'); ?></button>
+                                class="ion-ios-search"></i><?php echo esc_html__('Szukaj', 'robolist-lite'); ?></button>
                 </div>
             </form>
 
