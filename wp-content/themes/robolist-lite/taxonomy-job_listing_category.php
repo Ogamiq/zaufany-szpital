@@ -71,7 +71,7 @@ $query = new WP_Query($args);
                                                             <i class="fa fa-star"></i>
                                                             <i class="fa fa-star"></i>
                                                         </div>
-                                                        <span>(5 Reviews)</span>
+                                                        <span>(5 Ocen)</span>
                                                     </div>
                                                     <?php if ($price): ?>
                                                         <div class="listing-price">

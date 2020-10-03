@@ -12427,7 +12427,7 @@ i.sidedropdown {
 
 .sidr .custom-logo {
   display: block;
-  max-height: 90px;
+  max-height: 70px;
   width: auto;
   margin: 0 auto; }
 
@@ -12815,7 +12815,7 @@ p.site-description {
   padding-right: 0; }
 
 img.custom-logo {
-  max-height: 40px;
+  max-height: 70px;
   width: auto;
   margin-top: 10px; }
 
@@ -12930,6 +12930,7 @@ section#promo {
       content: '';
       background: rgba(0, 0, 0, 0.4); }
     .listing-content-wrap .listing-thumb img.listing-auth {
+      visibility: hidden;
       height: 40px;
       width: 40px;
       position: absolute;

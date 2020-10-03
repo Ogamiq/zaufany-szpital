@@ -95,7 +95,7 @@ $head_class = 'my-favorite';
                                 echo '</ul></li>';
                             }
                         }else{
-                            echo '<li class="signin"><a href="'.esc_url(site_url('/wp-admin')).'"><i class="fa fa-user" aria-hidden="true"></i>'.esc_html__('Sign In','robolist-lite').'</a></li>';
+                            echo '<li class="signin"><a href="'.esc_url(site_url('/wp-admin')).'"><i class="fa fa-user" aria-hidden="true"></i>'.esc_html__('Dodaj Szpital','robolist-lite').'</a></li>';
                         }
                         ?>
                         <?php
@@ -148,7 +148,7 @@ $head_class = 'my-favorite';
                             echo '</ul></li>';
                         }
                     }else{
-                        echo '<li class="signin"><a href="'.esc_url(site_url('/wp-admin')).'"><i class="fa fa-user" aria-hidden="true"></i>'.esc_html__('Sign In','robolist-lite').'</a></li>';
+                        echo '<li class="signin"><a href="'.esc_url(site_url('/wp-admin')).'"><i class="fa fa-user" aria-hidden="true"></i>'.esc_html__('Dodaj Szpital','robolist-lite').'</a></li>';
                     }
                     ?>
                     <?php

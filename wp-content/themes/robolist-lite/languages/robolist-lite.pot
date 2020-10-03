@@ -547,7 +547,7 @@ msgstr ""
 #: template-parts/homepage/listing-section.php:100
 #, php-format
 msgid "<span>(%s Review)</span>"
-msgid_plural "<span>(%s Reviews</span>)"
+msgid_plural "<span>(%s Ocen</span>)"
 msgstr[0] ""
 msgstr[1] ""
 

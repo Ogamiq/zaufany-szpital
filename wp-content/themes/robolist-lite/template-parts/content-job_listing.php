@@ -79,7 +79,7 @@ $query = new WP_Query($args);
                                             }
                                             printf(
                                             /* translators: %s: comment number */
-                                                _n( '<span>(%s Review)</span>', '<span>(%s Reviews</span>)', get_comments_number($post->ID), 'robolist-lite' ), number_format_i18n( get_comments_number($post->ID) ) );
+                                                _n( '<span>(%s Review)</span>', '<span>(%s Ocen</span>)', get_comments_number($post->ID), 'robolist-lite' ), number_format_i18n( get_comments_number($post->ID) ) );
                                             echo '</div>';
                                             ?>
                                             <?php if ($price): ?>

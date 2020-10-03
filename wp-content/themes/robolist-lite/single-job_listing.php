@@ -106,7 +106,7 @@ the_post();
                         }
                         printf(
                         /* translators: %s: review number */
-                       _n( '<span>(%s Review)</span>', '<span>(%s Reviews</span>)', get_comments_number($post->ID), 'robolist-lite' ), absint(number_format_i18n( get_comments_number($post->ID)) ) );
+                       _n( '<span>(%s Review)</span>', '<span>(%s Ocen</span>)', get_comments_number($post->ID), 'robolist-lite' ), absint(number_format_i18n( get_comments_number($post->ID)) ) );
                         echo '</div>';
                     }else{
                         echo '<div class="cat-star">';
@@ -117,7 +117,7 @@ the_post();
                         echo '<i class="fa fa-star rl-blank-star"></i>';
                         printf(
                         /* translators: %s: review number */
-                        _n( '<span>(%s Review)</span>', '<span>(%s Reviews</span>)', get_comments_number($post->ID), 'robolist-lite' ), absint(number_format_i18n( get_comments_number($post->ID))  ) );
+                        _n( '<span>(%s Review)</span>', '<span>(%s Ocen</span>)', get_comments_number($post->ID), 'robolist-lite' ), absint(number_format_i18n( get_comments_number($post->ID))  ) );
                         echo '</div>';
                     }
                     ?>

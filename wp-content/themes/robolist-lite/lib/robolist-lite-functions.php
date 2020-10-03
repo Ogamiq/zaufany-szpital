@@ -526,7 +526,7 @@ if (!function_exists('robolist_lite_job_aearch')) {
                     </div>
                     <div class="banner-search-input-item location">
                         <input type="text" name="search_location"
-                               placeholder="<?php echo esc_attr__('miasto lub województwo', 'robolist-lite'); ?>" value=""/>
+                               placeholder="<?php echo esc_attr__('miasto lub województwo', 'robolist-lite'); ?>" value="" style="padding-left: 8px;"/>
                     </div>
                     <button class="button btn-default"><i
                                 class="ion-ios-search"></i><?php echo esc_html__('Szukaj', 'robolist-lite'); ?></button>
